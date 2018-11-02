@@ -1,2 +1,5 @@
 # tufts-es4-web
-Course website for Tufts ES 4
+Website for Tufts ES 4: Introduction to Digital Logic Circuits
+
+This site is statically generated using [Jemdoc](http://jemdoc.jaboc.net/).
+

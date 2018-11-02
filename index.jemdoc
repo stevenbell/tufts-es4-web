@@ -1,0 +1,27 @@
+# jemdoc: menu{MENU}{index.html}
+= ES 4 --- Fundamentals of computer systems and engineering
+
+*Welcome to ES 4!*
+
+/Any sufficiently advanced technology is indistinguishible from magic./ -- Arthur C. Clarke
+
+There are few technologies for which Clarke's statement is more true than microprocessors.
+Today you can find a microprocessor in almost anything electronic, and yet
+even those of us who can program them often have very little understanding of their inner workings.
+In ES 4, we will study microprocessors --- and digital electronics more generally --- from the ground up.
+From your past courses, you know how computers work at the physical level (voltages and currents) and at the application level (C++ and other languages); the objective of this course is to connect the dots between the two.
+
+To do this, we begin with the basics of manipulating zeros and ones with circuitry, and start building /combinational/ circuits, which produce outputs based on some mathematical combination of their inputs.
+Then we make a major turn and explore /sequential/ circuits, which can store information or step through a sequence of states.
+With these building blocks in hand, we will take a brief look at the ARM instruction set (which powers your cell phone and a few billion other devices), and learn how to build circuits which can actually interpret and execute software instructions.
+
+When we're done, you'll have the skills necessary to design a complex digital system and implement it on an FPGA.  In short, you'll be able to work magic.
+
+
+* Notices *
+~~~
+{2 November 2018}
+
+Spring course registration opens November 15-19.  Get excited for ES 4!
+~~~
+
