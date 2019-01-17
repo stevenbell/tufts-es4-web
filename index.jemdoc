@@ -1,5 +1,9 @@
 # jemdoc: menu{MENU}{index.html}
-= ES 4 --- Fundamentals of computer systems and engineering
+= ES 4 --- Introduction to digital logic circuits
+
+*Quick links:* [http://piazza.com/tufts/spring2019/es4 Piazza]---
+[http://www.gradescope.com/ Gradescope] ---
+[https://proquest.safaribooksonline.com/9780123944245 Textbook online (MIPS version)]
 
 *Welcome to ES 4!*
 
@@ -20,8 +24,21 @@ When we're done, you'll have the skills necessary to design a complex digital sy
 
 * Notices *
 ~~~
-{2 November 2018}
+{17 January 2019}
+The MIPS edition of the textbook is [https://proquest.safaribooksonline.com/9780123944245 available online through the library].
 
-Spring course registration opens November 15-19.  Get excited for ES 4!
+As far as I can tell, it is identical through Chapter 5, which will take us through March.  You'll need access to the ARM edition for the last three weeks or so.
+ 
+
+I've posted the welcome survey and lab signup here: [https://tufts.qualtrics.com/jfe/form/SV_8CycJcLG7tXR8Hj]
+
+It is due before class on Wednesday (1:30pm 1/23), so we can get sections assigned before labs begin the following week.
+~~~
+
+
+~~~
+{10 January 2019}
+
+Class begins on Wednesday, January 16.  Get excited for ES 4!
 ~~~
 
