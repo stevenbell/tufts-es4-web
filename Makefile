@@ -1,25 +1,30 @@
-# Jemdoc pages to compile
-PAGES=index labs quizzes homework slides exams staff project
 
-# Command to run jemdoc
-JEMDOC=python ./jemdoc.py
+RESOURCEDIR = resources
+TEMPLATEDIR = templates
+BUILDDIR = build
 
-HPAGES=$(addsuffix .html, $(PAGES))
-PHPAGES=$(addprefix html/, $(HPAGES))
 
-# Build all the pages
+SOURCES = $(filter-out README.md, $(wildcard *.md))
+PAGES = $(patsubst %.md,build/%.html,$(SOURCES))
+
 .PHONY : all
-all : $(PHPAGES)
-	@cp jemdoc.css html/
+all: builddir copy_resources $(PAGES)
+
+builddir:
+	mkdir -p $(BUILDDIR)
+
+copy_resources:
+	cp -r $(RESOURCEDIR) $(BUILDDIR)
+
+build/%.html : %.md
+	pandoc --to html5 --template=$(TEMPLATEDIR)/default.html --css $(RESOURCEDIR)/style.css $< -o $@
 
 # Push the pages to the web server
 .PHONY : push
-push : $(PHPAGES)
-	scp html/* sbell@linux.eecs.tufts.edu:/es/4/public_html
-
-html/%.html : %.jemdoc MENU
-	$(JEMDOC) -o $@ $<
+push : $(PAGES)
+	rsync -Lrv $(BUILDDIR)/ sbell@linux.eecs.tufts.edu:/es/4/public_html
 
 .PHONY : clean
 clean :
-	-rm -f html/*.html
+	-rm -rf $(BUILDDIR)
+
