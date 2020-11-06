@@ -1,0 +1,51 @@
+# jemdoc: menu{MENU}{staff.html}
+= Staff
+
+== Instructor
+*Steven Bell*
+
+[sbell@ece.tufts.edu]
+
+Halligan 009
+
+Office hours:
+- Mondays 3-4pm (Walking office hours, see [http://stevenbell.me/walking_oh here for details])
+- Wednesdays 3-4:30pm
+- Thursdays 1-3pm
+
+
+== Teaching assistants
+
+Unless otherwise noted, office hours are held in the Halligan extension open space.
+
+~~~
+{}{table}{tas}
+Name             | E-mail (at tufts.edu) | Office hours         ||
+Long Bao         | long.bao              | Wednesday 10-11:30am || 
+Ahmed Abbasi     | ahmed.abbasi          | Friday 3-5pm         ||
+Wenxin Zeng      | wenxin.zeng           | Monday 8-10am        ||
+Aji Sjamsu       | tenriaji.sjamsu       | Monday 6-8pm *in Halligan 225* ||
+Sabrina Miller   | sabrina.miller        | \-                   ||
+Nate Krinsky     | nathan.krinsky        | \-                   ||
+Kevin Naranjo    | kevin.naranjo         | \-                   ||
+Peter Malinovsky | peter.malinovsky      | \-                   ||
+David Janowsky   | david.janowsky        | \-                        
+~~~
+
+== Lab sections
+~~~
+{}{table}{sections}
+Time | TA(s) ||
+Monday 10am-12pm | Long & Sabrina ||
+Monday 7-9pm | Nate & David ||
+Tuesday 10-12 | Ahmed ||
+Tuesday 1-3pm | Ahmed ||
+Tuesday 3:30-5:30pm | Kevin & Peter ||
+Tuesday 6-8pm | Aji ||
+Wednesday 10am-12pm | Long ||
+Wednesday 3-5pm | Wenxin ||
+Thursday 8-10am | Wenxin
+~~~
+
+
+

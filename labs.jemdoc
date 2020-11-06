@@ -1,0 +1,40 @@
+# jemdoc: menu{MENU}{labs.html}
+= Labs
+
+== Guides
+- [labs/labreports.pdf Lab report guidelines]
+- [labs/example_report.pdf Example lab report]
+
+== Lab 1
+- [labs/lab1.pdf Lab handout]
+- Datasheets
+-- [labs/datasheets/sn74ls04.pdf SN74LS04 hex inverter]
+-- [labs/datasheets/sn74ls08.pdf SN74LS08 quad AND]
+-- [labs/datasheets/sn74ls32.pdf SN74LS32 quad OR]
+-- [labs/datasheets/sn74ls86a.pdf SN74LS86A quad XOR]
+
+== Lab 2
+- [labs/lab2.pdf Lab handout]
+- Datasheets
+-- [labs/datasheets/sn74ls151.pdf SN74LS151 8:1 multiplexer]
+- [labs/checkadder.dwf3script Waveforms starter script for testing your adder]
+
+== Lab 3
+- [labs/radiant.pdf Radiant tutorial]
+- [labs/lab3.pdf Lab handout]
+- Datasheets
+-- [labs/datasheets/D6410G-03.pdf Lite-On D6410G 7-segment display]
+
+== Lab 4
+- [labs/lab4.pdf Lab handout]
+- Datasheets
+-- [labs/datasheets/BS250P.pdf BS250P PMOS transistor]
+-- [labs/datasheets/PEC12R.pdf Bourns PEC12R rotary encoder]
+
+== Lab 5
+- [labs/lab5_vga.pdf VGA lab handout]
+- [labs/lab5_nes.pdf NES lab handout]
+  -- [labs/nes_controller.dwf3work Waveforms workspace for driving NES]
+  -- [labs/controller.vhd VHDL model of the NES controller] -- [labs/test_nesreader.vhd VHDL testbench]
+  -- [https://tresi.github.io/nes/ Useful page about the NES controller protocol].  The author also has a VHDL implementation which uses a 17-state FSM to read the controller --- we'll implement this in a much simpler way.
+

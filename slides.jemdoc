@@ -2,3 +2,25 @@
 = Slides
 
 - [slides/lecture01.pdf Lecture 1 (1/16): Welcome and binary numbers]
+- [slides/lecture02.pdf Lecture 2 (1/23): Boolean equations and logic gates]
+- [slides/lecture03.pdf Lecture 3 (1/28): Boolean algebra]
+- [slides/lecture04.pdf Lecture 4 (1/30): Karnaugh maps ]
+- [slides/lecture05.pdf Lecture 5 (2/4): Mutliplexers and FPGAs ]
+- [slides/lecture06.pdf Lecture 6 (2/6): Timing combinational logic ]
+- [slides/lecture07.pdf Lecture 7 (2/11): VHDL for combinational logic ]
+- [slides/lecture08.pdf Lecture 8 (2/13): Number systems ]
+- [slides/lecture09.pdf Lecture 9 (2/18): Number systems ]
+- [slides/lecture10.pdf Lecture 10 (2/20): Arithmetic circuits ]
+- Midterm review and exam
+- [slides/lecture11.pdf Lecture 11 (3/4): Latches and flip-flops ]
+- [slides/lecture12.pdf Lecture 12 (3/6): Sequential logic in VHDL ] ([slides/lecture12_top.vhd Demo code])
+- No slides for lecture 13 (3/11): FSMs ([slides/notes_13.pdf TA notes])
+- [slides/lecture14.pdf Lecture 14 (3/15): More (moore?) FSMs ]
+- [slides/lecture15.pdf Lecture 15 (3/25): Sequential logic timing ] ([slides/handout_15.pdf Handout])
+- [slides/lecture16.pdf Lecture 16 (3/27): Sequential logic timing, part 2 ]
+- [slides/lecture17.pdf Lecture 17 (4/1): Memory ]
+- [slides/lecture18.pdf Lecture 18 (4/3): Introduction to the final project ]
+- [slides/lecture19.pdf Lecture 19 (4/8): I/O protocols ]
+- [slides/lecture20.pdf Lecture 20 (4/10): Using memory on the iCE40 ]
+- [slides/lecture21.pdf Lecture 21 (4/17): ARM assembly ]
+

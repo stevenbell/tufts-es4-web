@@ -1,3 +1,15 @@
 # jemdoc: menu{MENU}{homework.html}
 = Homework
 
+- [homework/hw1.pdf Homework 1 (Due Monday 2/4)]
+- [homework/hw2.pdf Homework 2 (Due Monday 2/11)]
+- [http://172.104.217.120:8000 Homework 3 (Due Wednesday 2/20 via +provide hw3+)]
+- [http://vhdlweb.com Homework 4 (Due Monday 2/25 via +provide hw4+)]
+- [homework/hw5.pdf Homework 5 (Due Monday 3/11 on Gradescope)]
+  -- [http://vhdlweb.com Homework 5 VHDL problems (Due Monday 3/11 via +provide hw5+)]
+- [homework/hw6.pdf Homework 6 (Due Monday 4/1 on Gradescope & +provide+)]
+  -- [labs/modelsim.pdf ModelSim tutorial (not strictly necessary, but useful!)]
+  -- [http://vhdlweb.com:8000 VHDLweb tests and testbenches]
+- [homework/ethics.pdf Ethics assignment (Due Wednesday 4/3 on Gradescope)]
+
+[https://tufts.box.com/s/kyjykhwfk67gebexs8vqz3mhisq0b42h Solutions]
