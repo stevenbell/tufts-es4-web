@@ -16,7 +16,7 @@ builddir:
 copy_resources:
 	cp -r $(RESOURCEDIR) $(BUILDDIR)
 
-build/%.html : %.md
+build/%.html : %.md $(TEMPLATEDIR)/default.html
 	pandoc --to html5 --template=$(TEMPLATEDIR)/default.html --css $(RESOURCEDIR)/style.css $< -o $@
 
 # Push the pages to the web server
