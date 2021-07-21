@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg6"
+   version="1.1"
+   viewBox="0 0 512 512"
+   class="ionicon">
+  <title
+     id="title2">Link</title>
+  <path
+     style="fill:none;stroke:#555753;stroke-width:59.2942543;stroke-linecap:round;stroke-linejoin:round"
+     id="path4"
+     d="m 291.51597,388.1935 -49.49176,49.49176 A 118.58851,118.58851 0 0 1 74.314738,269.97579 l 48.399912,-48.39991 m 98.86123,-98.86123 48.39991,-48.399912 A 118.58851,118.58851 0 0 1 437.68526,242.02421 l -49.49176,49.49176 m -208.12571,40.41624 153.6114,-153.6114" />
+</svg>

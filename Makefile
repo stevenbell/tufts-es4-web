@@ -17,12 +17,12 @@ copy_resources:
 	cp -r $(RESOURCEDIR) $(BUILDDIR)
 
 build/%.html : %.md $(TEMPLATEDIR)/default.html
-	pandoc --to html5 --template=$(TEMPLATEDIR)/default.html --css $(RESOURCEDIR)/style.css $< -o $@
+	pandoc --to html5 --section-divs --template=$(TEMPLATEDIR)/default.html --css $(RESOURCEDIR)/style.css $< -o $@
 
 # Push the pages to the web server
 .PHONY : push
 push : $(PAGES)
-	rsync -Lrv $(BUILDDIR)/ sbell@linux.eecs.tufts.edu:/es/4/public_html
+	rsync -Lrv $(BUILDDIR)/ tufts:/es/4/public_html
 
 .PHONY : clean
 clean :

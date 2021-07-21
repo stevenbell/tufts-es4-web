@@ -4,7 +4,7 @@ body {
   padding-bottom: 10px;
 }
 
-h1, h2, h3 {
+h1 {
   color: #527bbd;
   margin-top: 0.7em;
   margin-bottom: 0.3em;
@@ -49,5 +49,98 @@ nav {
   display: flex;
   padding-right: 10px;
   max-width: 800px;
+}
+
+/* Stuff for styling the main schedule */
+h2 {
+  background-color: #eeeeee;
+  border: solid 1px #dddddd;
+  font-size: medium;
+  font-weight: bold;
+  padding: 5px;
+}
+
+h3 {
+  font-size: medium;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.readings {
+  margin: 10px 30px 10px 30px;
+  padding: 7px 10px 1px 10px;
+  background-color: #e1f0d2;
+  border-radius: 3px;
+}
+
+.assignment {
+  margin: 10px 30px 10px 30px;
+  padding: 7px 10px 1px 10px;
+  background-color: #d9e6f3;
+  border-radius: 3px;
+}
+
+.fun {
+  margin: 10px 30px 10px 30px;
+  padding: 7px 10px 1px 10px;
+  background-color: #fef5c6;
+  border-radius: 3px;
+}
+
+.level2 p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+div.reading, div.video, div.quiz, div.lab, div.recitation, div.homework, div.todo, div.link, div.slides{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+div.reading::before, div.video::before, div.quiz::before, div.lab::before, div.recitation::before, div.homework::before, div.todo::before, div.link::before, div.slides::before{
+  display: inline-block;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 1em;
+  height: 1.2em;
+  padding-right: 10px;
+  vertical-align: bottom;
+}
+
+div.reading::before{
+  background-image: url("images/reading.svg");
+}
+
+div.video::before{
+  background-image: url("images/video.svg");
+}
+
+div.quiz::before{
+  background-image: url("images/quiz.svg");
+}
+
+div.lab::before{
+  background-image: url("images/lab.svg");
+}
+
+div.recitation::before{
+  background-image: url("images/recitation.svg");
+}
+
+div.homework::before{
+  background-image: url("images/homework.svg");
+}
+
+div.todo::before{
+  background-image: url("images/todo.svg");
+}
+
+div.link::before{
+  background-image: url("images/link.svg");
+}
+
+div.slides::before{
+  background-image: url("images/slides.svg");
 }
 
